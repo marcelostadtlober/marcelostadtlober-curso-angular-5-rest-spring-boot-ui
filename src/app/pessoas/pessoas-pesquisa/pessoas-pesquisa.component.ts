@@ -22,7 +22,7 @@ export class PessoasPesquisaComponent implements OnInit {
 
   constructor(
     private pessoaService: PessoaService,
-    private auth: AuthService,
+    public auth: AuthService,
     private errorHandler: ErrorHandlerService,
     private confirmation: ConfirmationService,
     private toasty: ToastyService,
